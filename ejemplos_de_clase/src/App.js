@@ -1,19 +1,19 @@
 import "./App.css";
 
-import { useState } from "react";
+// import { useState } from "react";
 
-import Padre1 from "./components/01-padre-hijo"
-import Padre2 from "./components/02-hijo-padre-1"
-import Padre3 from "./components/02-hijo-padre-2"
-import FormularioLogin from "./components/03-formulario-login"
-import UseEffect00 from "./components/04-useEffect00"
-import UseEffect01 from "./components/05-useEffect01"
-import UseEffect02 from "./components/06-useEffect02"
-import UseEffect03 from "./components/07-useEffect03"
-
+// import Padre1 from "./components/01-padre-hijo"
+// import Padre2 from "./components/02-hijo-padre-1"
+// import Padre3 from "./components/02-hijo-padre-2"
+// import FormularioLogin from "./components/03-formulario-login"
+// import UseEffect00 from "./components/04-useEffect00"
+// import UseEffect01 from "./components/05-useEffect01"
+// import UseEffect02 from "./components/06-useEffect02"
+// import UseEffect03 from "./components/07-useEffect03"
+import Actividad from "./components/Actividad";
 
 function App() {
-  const [autenticado, setAutenticado] = useState(false);
+  // const [autenticado, setAutenticado] = useState(false);
 
   return (
     <div className="App">
@@ -43,6 +43,7 @@ function App() {
         {/* 7. UseEffect ejemplo integrador */}
         {/* <UseEffect03/> */}
 
+        <Actividad />
       </header>
     </div>
   );
